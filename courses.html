@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="courses.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <title>Courses | Knowledge Core</title>
+</head>
+<body>
+    <a href="index.html">
+    <header id="main-header">
+        <div class="logo-container">
+            <img src="assets/icon.png" alt="Logo do site" class="logo">
+            <img src="assets/logo.png" id="site-name">
+        </div>
+    </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="courses.html">CURSOS</a></li>
+                <li><a href="#">SOBRE</a></li>
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <button class="btn login">CONECTAR-SE</button>
+            <button class="btn register">REGISTRAR-SE</button>
+        </div>
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="course-section blue-background">
+        <div class="course-content">
+            <div class="course-text">
+                <h2>Culinária</h2>
+                <p>Aprenda a cozinhar pratos incríveis com técnicas e dicas de grandes chefs.</p>
+                <button class="btn">Assinar agora</button>
+            </div>
+            <div class="course-teaser">
+                <video src="assets/culinaria.mp4" controls></video>
+            </div>
+        </div>
+    </section>
+
+    <section class="course-section white-background">
+        <div class="course-content">
+            <div class="course-text">
+                <h2>Anatomia</h2>
+                <p>Explore o corpo humano em detalhes, entendendo cada função e estrutura.</p>
+                <button class="btn">Assinar agora</button>
+            </div>
+            <div class="course-teaser">
+                <img src="assets/anatomia.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="course-section blue-background">
+        <div class="course-content">
+            <div class="course-text">
+                <h2>Química</h2>
+                <p>Domine os conceitos químicos fundamentais e aplique-os na vida real.</p>
+                <button class="btn">Assinar agora</button>
+            </div>
+            <div class="course-teaser">
+                <video src="assets/quimica.mp4" controls></video>
+            </div>
+        </div>
+    </section>
+
+    <section class="course-section white-background">
+        <div class="course-content">
+            <div class="course-text">
+                <h2>Filosofia</h2>
+                <p>Reflexões profundas sobre o mundo, a existência e o pensamento humano.</p>
+                <button class="btn">Assinar agora</button>
+            </div>
+            <div class="course-teaser">
+                <img src="assets/filosofia.jpg">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <br>
+        <a href="https://migatte-no-ultizin.webnode.page/" target="_blank">FINISAUTEMPOTENTIAE © | Ulti Corp. 2019 - 2024</a>
+        <p>Desenvolvido por <a href="https://github.com/UltimateStrength" target="_blank">Marcos (Ulti)</a></p>
+    </footer>
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <h2>Login</h2>
+            <input type="email" id="login-email" placeholder="Email">
+            <input type="password" id="login-password" placeholder="Senha">
+            <button id="login-button">Logar-se</button>
+        </div>
+    </div>
+
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <h2>Registrar</h2>
+            <input type="text" id="register-username" placeholder="Usuário">
+            <input type="email" id="register-email" placeholder="Email">
+            <input type="password" id="register-password" placeholder="Senha">
+            <button id="register-button">Registrar-se</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
